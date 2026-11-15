@@ -1,0 +1,19 @@
+# Normalise line endings so the project behaves the same on Windows, macOS and Linux.
+* text=auto eol=lf
+
+*.ts   text eol=lf
+*.tsx  text eol=lf
+*.js   text eol=lf
+*.mjs  text eol=lf
+*.css  text eol=lf
+*.json text eol=lf
+*.md   text eol=lf
+
+# Binary assets
+*.jpg  binary
+*.jpeg binary
+*.png  binary
+*.webp binary
+*.avif binary
+*.ico  binary
+*.zip  binary
